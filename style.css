@@ -34,3 +34,21 @@
     display: block;
     margin: auto;
 }
+.hero-emblem {
+    clip-path: none !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+
+.hero-emblem .hero-logo {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 300px !important;
+    max-height: 300px !important;
+    object-fit: contain !important;
+    position: relative;
+    z-index: 10;
+}
