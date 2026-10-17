@@ -17,3 +17,19 @@
   display: block;
   margin: auto;
 }
+.hero-emblem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-logo {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
